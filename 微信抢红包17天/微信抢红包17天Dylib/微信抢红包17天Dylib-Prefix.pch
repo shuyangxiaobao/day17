@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the '微信抢红包17天Dylib' target in the '微信抢红包17天Dylib' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "/opt/theos/Prefix.pch"  //path/to/theos/Prefix.pch
+#endif

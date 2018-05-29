@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90CF49E120BD511F001B839E /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90CF49E020BD511F001B839E /* MDConfig.plist */; };
+		90CF49EB20BD511F001B839E /* lib微信抢红包17天Dylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 90CF49EA20BD511F001B839E /* lib微信抢红包17天Dylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		90CF49F020BD511F001B839E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CF49EF20BD511F001B839E /* JavaScriptCore.framework */; };
+		90CF49F220BD511F001B839E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CF49F120BD511F001B839E /* Foundation.framework */; };
+		90CF49F420BD511F001B839E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CF49F320BD511F001B839E /* UIKit.framework */; };
+		90CF49F920BD511F001B839E /* _____17_Dylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90CF49F820BD511F001B839E /* _____17_Dylib.mm */; };
+		90CF49FC20BD511F001B839E /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF49FB20BD511F001B839E /* MDConfigManager.h */; };
+		90CF49FE20BD511F001B839E /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF49FD20BD511F001B839E /* MDConfigManager.m */; };
+		90CF4A0020BD511F001B839E /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF49FF20BD511F001B839E /* MDCycriptManager.h */; };
+		90CF4A0220BD511F001B839E /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A0120BD511F001B839E /* MDCycriptManager.m */; };
+		90CF4A0420BD511F001B839E /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF4A0320BD511F001B839E /* MDMethodTrace.h */; };
+		90CF4A0620BD511F001B839E /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A0520BD511F001B839E /* MDMethodTrace.m */; };
+		90CF4A0820BD511F001B839E /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF4A0720BD511F001B839E /* ANYMethodLog.h */; };
+		90CF4A0A20BD511F001B839E /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A0920BD511F001B839E /* ANYMethodLog.m */; };
+		90CF4A0D20BD511F001B839E /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF4A0C20BD511F001B839E /* LLDBTools.h */; };
+		90CF4A0F20BD511F001B839E /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A0E20BD511F001B839E /* LLDBTools.mm */; };
+		90CF4A1420BD511F001B839E /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A1320BD511F001B839E /* AntiAntiDebug.m */; };
+		90CF4A1720BD511F001B839E /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A1620BD511F001B839E /* fishhook.c */; };
+		90CF4A1920BD511F001B839E /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF4A1820BD511F001B839E /* fishhook.h */; };
+		90CF4A1B20BD511F001B839E /* _____17_Dylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF4A1A20BD511F001B839E /* _____17_Dylib.h */; };
+		90CF4A1D20BD511F001B839E /* _____17_Dylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A1C20BD511F001B839E /* _____17_Dylib.m */; };
+		90CF4A2820BD51B1001B839E /* WeChatRedEnvelopParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A2620BD51B0001B839E /* WeChatRedEnvelopParamQueue.m */; };
+		90CF4A2920BD51B1001B839E /* WeChatRedEnvelopParamQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF4A2720BD51B1001B839E /* WeChatRedEnvelopParamQueue.h */; };
+		90CF4A2B20BD51C8001B839E /* WeChatHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CF4A2A20BD51C7001B839E /* WeChatHeader.h */; };
+		90CF4A2E20BD523F001B839E /* HKSettingCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A2D20BD523F001B839E /* HKSettingCell.mm */; };
+		90CF4A3120BD528E001B839E /* AutoGrabRedEnvelops.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90CF4A3020BD528E001B839E /* AutoGrabRedEnvelops.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90CF49EC20BD511F001B839E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90CF49CD20BD511F001B839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90CF49E920BD511F001B839E;
+			remoteInfo = "微信抢红包17天Dylib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90CF49D520BD511F001B839E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				90CF49EB20BD511F001B839E /* lib微信抢红包17天Dylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		90CF49D820BD511F001B839E /* 微信抢红包17天.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信抢红包17天.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CF49DB20BD511F001B839E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		90CF49DC20BD511F001B839E /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
+		90CF49DE20BD511F001B839E /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		90CF49E020BD511F001B839E /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		90CF49E320BD511F001B839E /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		90CF49E420BD511F001B839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CF49EA20BD511F001B839E /* lib微信抢红包17天Dylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "lib微信抢红包17天Dylib.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CF49EF20BD511F001B839E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		90CF49F120BD511F001B839E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90CF49F320BD511F001B839E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90CF49F720BD511F001B839E /* _____17_Dylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = "_____17_Dylib.xm"; path = "Logos/_____17_Dylib.xm"; sourceTree = "<group>"; };
+		90CF49F820BD511F001B839E /* _____17_Dylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = "_____17_Dylib.mm"; path = "Logos/_____17_Dylib.mm"; sourceTree = "<group>"; };
+		90CF49FB20BD511F001B839E /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		90CF49FD20BD511F001B839E /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		90CF49FF20BD511F001B839E /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		90CF4A0120BD511F001B839E /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		90CF4A0320BD511F001B839E /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		90CF4A0520BD511F001B839E /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		90CF4A0720BD511F001B839E /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		90CF4A0920BD511F001B839E /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		90CF4A0C20BD511F001B839E /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		90CF4A0E20BD511F001B839E /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		90CF4A1120BD511F001B839E /* 微信抢红包17天Dylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "微信抢红包17天Dylib-Prefix.pch"; sourceTree = "<group>"; };
+		90CF4A1320BD511F001B839E /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		90CF4A1620BD511F001B839E /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		90CF4A1820BD511F001B839E /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		90CF4A1A20BD511F001B839E /* _____17_Dylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_____17_Dylib.h"; sourceTree = "<group>"; };
+		90CF4A1C20BD511F001B839E /* _____17_Dylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____17_Dylib.m"; sourceTree = "<group>"; };
+		90CF4A2620BD51B0001B839E /* WeChatRedEnvelopParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeChatRedEnvelopParamQueue.m; path = "../../../代码/001--WeChatDemo11/001--WeChatDemo11Dylib/WeChatRedEnvelopParamQueue.m"; sourceTree = "<group>"; };
+		90CF4A2720BD51B1001B839E /* WeChatRedEnvelopParamQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeChatRedEnvelopParamQueue.h; path = "../../../代码/001--WeChatDemo11/001--WeChatDemo11Dylib/WeChatRedEnvelopParamQueue.h"; sourceTree = "<group>"; };
+		90CF4A2A20BD51C7001B839E /* WeChatHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeChatHeader.h; path = "../../../代码/001--WeChatDemo11/001--WeChatDemo11Dylib/WeChatHeader.h"; sourceTree = "<group>"; };
+		90CF4A2C20BD51DA001B839E /* HKSettingCell.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = HKSettingCell.xm; path = "../../../代码/001--WeChatDemo11/001--WeChatDemo11Dylib/HKSettingCell.xm"; sourceTree = "<group>"; };
+		90CF4A2D20BD523F001B839E /* HKSettingCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HKSettingCell.mm; path = "../../../代码/001--WeChatDemo11/001--WeChatDemo11Dylib/HKSettingCell.mm"; sourceTree = "<group>"; };
+		90CF4A2F20BD5273001B839E /* AutoGrabRedEnvelops.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = AutoGrabRedEnvelops.xm; path = "../../../代码/001--WeChatDemo11/001--WeChatDemo11Dylib/AutoGrabRedEnvelops.xm"; sourceTree = "<group>"; };
+		90CF4A3020BD528E001B839E /* AutoGrabRedEnvelops.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AutoGrabRedEnvelops.mm; path = "../../../代码/001--WeChatDemo11/001--WeChatDemo11Dylib/AutoGrabRedEnvelops.mm"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90CF49D220BD511F001B839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CF49E720BD511F001B839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CF49F020BD511F001B839E /* JavaScriptCore.framework in Frameworks */,
+				90CF49F420BD511F001B839E /* UIKit.framework in Frameworks */,
+				90CF49F220BD511F001B839E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90CF49CC20BD511F001B839E = {
+			isa = PBXGroup;
+			children = (
+				90CF49DA20BD511F001B839E /* 微信抢红包17天 */,
+				90CF49F520BD511F001B839E /* 微信抢红包17天Dylib */,
+				90CF49EE20BD511F001B839E /* Frameworks */,
+				90CF49D920BD511F001B839E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90CF49D920BD511F001B839E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90CF49D820BD511F001B839E /* 微信抢红包17天.app */,
+				90CF49EA20BD511F001B839E /* lib微信抢红包17天Dylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90CF49DA20BD511F001B839E /* 微信抢红包17天 */ = {
+			isa = PBXGroup;
+			children = (
+				90CF49DB20BD511F001B839E /* icon.png */,
+				90CF49DC20BD511F001B839E /* Target.plist */,
+				90CF49E420BD511F001B839E /* Info.plist */,
+				90CF49DD20BD511F001B839E /* Scripts */,
+				90CF49DF20BD511F001B839E /* Config */,
+				90CF49E220BD511F001B839E /* TargetApp */,
+			);
+			path = "微信抢红包17天";
+			sourceTree = "<group>";
+		};
+		90CF49DD20BD511F001B839E /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				90CF49DE20BD511F001B839E /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		90CF49DF20BD511F001B839E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				90CF49E020BD511F001B839E /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		90CF49E220BD511F001B839E /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				90CF49E320BD511F001B839E /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		90CF49EE20BD511F001B839E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90CF49EF20BD511F001B839E /* JavaScriptCore.framework */,
+				90CF49F120BD511F001B839E /* Foundation.framework */,
+				90CF49F320BD511F001B839E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90CF49F520BD511F001B839E /* 微信抢红包17天Dylib */ = {
+			isa = PBXGroup;
+			children = (
+				90CF4A1A20BD511F001B839E /* _____17_Dylib.h */,
+				90CF4A1C20BD511F001B839E /* _____17_Dylib.m */,
+				90CF49F620BD511F001B839E /* Logos */,
+				90CF49FA20BD511F001B839E /* Config */,
+				90CF4A0B20BD511F001B839E /* Tools */,
+				90CF4A1220BD511F001B839E /* AntiAntiDebug */,
+				90CF4A1520BD511F001B839E /* fishhook */,
+				90CF4A1020BD511F001B839E /* Supporting Files */,
+			);
+			path = "微信抢红包17天Dylib";
+			sourceTree = "<group>";
+		};
+		90CF49F620BD511F001B839E /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				90CF4A3020BD528E001B839E /* AutoGrabRedEnvelops.mm */,
+				90CF4A2F20BD5273001B839E /* AutoGrabRedEnvelops.xm */,
+				90CF4A2D20BD523F001B839E /* HKSettingCell.mm */,
+				90CF4A2C20BD51DA001B839E /* HKSettingCell.xm */,
+				90CF4A2A20BD51C7001B839E /* WeChatHeader.h */,
+				90CF4A2720BD51B1001B839E /* WeChatRedEnvelopParamQueue.h */,
+				90CF4A2620BD51B0001B839E /* WeChatRedEnvelopParamQueue.m */,
+				90CF49F720BD511F001B839E /* _____17_Dylib.xm */,
+				90CF49F820BD511F001B839E /* _____17_Dylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		90CF49FA20BD511F001B839E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				90CF49FB20BD511F001B839E /* MDConfigManager.h */,
+				90CF49FD20BD511F001B839E /* MDConfigManager.m */,
+				90CF49FF20BD511F001B839E /* MDCycriptManager.h */,
+				90CF4A0120BD511F001B839E /* MDCycriptManager.m */,
+				90CF4A0320BD511F001B839E /* MDMethodTrace.h */,
+				90CF4A0520BD511F001B839E /* MDMethodTrace.m */,
+				90CF4A0720BD511F001B839E /* ANYMethodLog.h */,
+				90CF4A0920BD511F001B839E /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		90CF4A0B20BD511F001B839E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				90CF4A0C20BD511F001B839E /* LLDBTools.h */,
+				90CF4A0E20BD511F001B839E /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		90CF4A1020BD511F001B839E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90CF4A1120BD511F001B839E /* 微信抢红包17天Dylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90CF4A1220BD511F001B839E /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				90CF4A1320BD511F001B839E /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		90CF4A1520BD511F001B839E /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				90CF4A1620BD511F001B839E /* fishhook.c */,
+				90CF4A1820BD511F001B839E /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90CF49E820BD511F001B839E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CF4A2920BD51B1001B839E /* WeChatRedEnvelopParamQueue.h in Headers */,
+				90CF4A0020BD511F001B839E /* MDCycriptManager.h in Headers */,
+				90CF4A0420BD511F001B839E /* MDMethodTrace.h in Headers */,
+				90CF4A0D20BD511F001B839E /* LLDBTools.h in Headers */,
+				90CF4A2B20BD51C8001B839E /* WeChatHeader.h in Headers */,
+				90CF49FC20BD511F001B839E /* MDConfigManager.h in Headers */,
+				90CF4A0820BD511F001B839E /* ANYMethodLog.h in Headers */,
+				90CF4A1B20BD511F001B839E /* _____17_Dylib.h in Headers */,
+				90CF4A1920BD511F001B839E /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		90CF49D720BD511F001B839E /* 微信抢红包17天 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CF4A2320BD511F001B839E /* Build configuration list for PBXNativeTarget "微信抢红包17天" */;
+			buildPhases = (
+				90CF49D120BD511F001B839E /* Sources */,
+				90CF49D220BD511F001B839E /* Frameworks */,
+				90CF49D320BD511F001B839E /* ShellScript */,
+				90CF49D420BD511F001B839E /* Resources */,
+				90CF49D520BD511F001B839E /* CopyFiles */,
+				90CF49D620BD511F001B839E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90CF49ED20BD511F001B839E /* PBXTargetDependency */,
+			);
+			name = "微信抢红包17天";
+			productName = "微信抢红包17天";
+			productReference = 90CF49D820BD511F001B839E /* 微信抢红包17天.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90CF49E920BD511F001B839E /* 微信抢红包17天Dylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CF4A2020BD511F001B839E /* Build configuration list for PBXNativeTarget "微信抢红包17天Dylib" */;
+			buildPhases = (
+				90CF49E520BD511F001B839E /* ShellScript */,
+				90CF49E620BD511F001B839E /* Sources */,
+				90CF49E720BD511F001B839E /* Frameworks */,
+				90CF49E820BD511F001B839E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信抢红包17天Dylib";
+			productName = "微信抢红包17天Dylib";
+			productReference = 90CF49EA20BD511F001B839E /* lib微信抢红包17天Dylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90CF49CD20BD511F001B839E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "戈强宝";
+				TargetAttributes = {
+					90CF49D720BD511F001B839E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					90CF49E920BD511F001B839E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 90CF49D020BD511F001B839E /* Build configuration list for PBXProject "微信抢红包17天" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90CF49CC20BD511F001B839E;
+			productRefGroup = 90CF49D920BD511F001B839E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90CF49D720BD511F001B839E /* 微信抢红包17天 */,
+				90CF49E920BD511F001B839E /* 微信抢红包17天Dylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90CF49D420BD511F001B839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CF49E120BD511F001B839E /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90CF49D320BD511F001B839E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		90CF49D620BD511F001B839E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		90CF49E520BD511F001B839E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90CF49D120BD511F001B839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CF49E620BD511F001B839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CF4A0220BD511F001B839E /* MDCycriptManager.m in Sources */,
+				90CF4A0A20BD511F001B839E /* ANYMethodLog.m in Sources */,
+				90CF4A3120BD528E001B839E /* AutoGrabRedEnvelops.mm in Sources */,
+				90CF49FE20BD511F001B839E /* MDConfigManager.m in Sources */,
+				90CF4A2820BD51B1001B839E /* WeChatRedEnvelopParamQueue.m in Sources */,
+				90CF4A0F20BD511F001B839E /* LLDBTools.mm in Sources */,
+				90CF4A1D20BD511F001B839E /* _____17_Dylib.m in Sources */,
+				90CF4A2E20BD523F001B839E /* HKSettingCell.mm in Sources */,
+				90CF49F920BD511F001B839E /* _____17_Dylib.mm in Sources */,
+				90CF4A0620BD511F001B839E /* MDMethodTrace.m in Sources */,
+				90CF4A1720BD511F001B839E /* fishhook.c in Sources */,
+				90CF4A1420BD511F001B839E /* AntiAntiDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90CF49ED20BD511F001B839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90CF49E920BD511F001B839E /* 微信抢红包17天Dylib */;
+			targetProxy = 90CF49EC20BD511F001B839E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		90CF4A1E20BD511F001B839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90CF4A1F20BD511F001B839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90CF4A2120BD511F001B839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA75X9QV5V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "微信抢红包17天Dylib/微信抢红包17天Dylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/lib微信抢红包17天Dylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"微信抢红包17天Dylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		90CF4A2220BD511F001B839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = MA75X9QV5V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "微信抢红包17天Dylib/微信抢红包17天Dylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/lib微信抢红包17天Dylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"微信抢红包17天Dylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90CF4A2420BD511F001B839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA75X9QV5V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "微信抢红包17天/Info.plist";
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = weixin5s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90CF4A2520BD511F001B839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA75X9QV5V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "微信抢红包17天/Info.plist";
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = weixin5s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90CF49D020BD511F001B839E /* Build configuration list for PBXProject "微信抢红包17天" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CF4A1E20BD511F001B839E /* Debug */,
+				90CF4A1F20BD511F001B839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CF4A2020BD511F001B839E /* Build configuration list for PBXNativeTarget "微信抢红包17天Dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CF4A2120BD511F001B839E /* Debug */,
+				90CF4A2220BD511F001B839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CF4A2320BD511F001B839E /* Build configuration list for PBXNativeTarget "微信抢红包17天" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CF4A2420BD511F001B839E /* Debug */,
+				90CF4A2520BD511F001B839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90CF49CD20BD511F001B839E /* Project object */;
+}
